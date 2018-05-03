@@ -5,7 +5,7 @@ require "uk_vehicle_data/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "ukvehicledata"
+  s.name        = "uk_vehicle_data"
   s.version     = UkVehicleData::VERSION
   s.authors     = ["Tom Dallimore"]
   s.email       = ["me@tomdallimore.com"]

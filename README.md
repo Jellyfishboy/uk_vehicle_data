@@ -11,7 +11,7 @@ A Ruby wrapper for the UK VehicleData API.
 Add module to your Gemfile:
 
 ```ruby
-gem 'ukvehicledata'
+gem 'uk_vehicle_data'
 ```
 
 Then run bundle to install the Gem:
