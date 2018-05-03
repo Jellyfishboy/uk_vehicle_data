@@ -1,12 +1,12 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "ukvehicledata/version"
+require "uk_vehicle_data/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "ukvehicledata"
-  s.version     = Ukvehicledata::VERSION
+  s.version     = UkVehicleData::VERSION
   s.authors     = ["Tom Dallimore"]
   s.email       = ["me@tomdallimore.com"]
   s.homepage    = "https://github.com/Jellyfishboy/ukvehicledata"

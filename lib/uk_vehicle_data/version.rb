@@ -1,3 +1,3 @@
-module Ukvehicledata
+module UkVehicleData
   VERSION = "0.0.1"
 end

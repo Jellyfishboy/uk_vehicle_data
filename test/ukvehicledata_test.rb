@@ -1,7 +1,7 @@
 require 'test_helper'
 
-class UkvehicledataTest < ActiveSupport::TestCase
+class UkVehicleDataTest < ActiveSupport::TestCase
   test "truth" do
-    assert_kind_of Module, Ukvehicledata
+    assert_kind_of Module, UkVehicleData
   end
 end

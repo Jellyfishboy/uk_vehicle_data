@@ -1,4 +1,4 @@
-## Ukvehicledata
+## UkVehicleData
 
 [![Gem Version](https://badge.fury.io/rb/ukvehicledata.svg)](https://badge.fury.io/rb/ukvehicledata)
 
@@ -20,9 +20,16 @@ Then run bundle to install the Gem:
 bundle install
 ```
 
+Set up an initializer file with your UKVehicleData API key:
+
+```ruby
+UkVehicleData.api_key  = 'uk_vehicle_data_api_key'
+```
+e.g. *config/initializers/uk_vehicle_data.rb*
+
 ## Versioning
 
-Ukvehicledata Ruby wrapper follows Semantic Versioning 2.0 as defined at
+UkVehicleData Ruby wrapper follows Semantic Versioning 2.0 as defined at
 <http://semver.org>.
 
 ## How to contribute
