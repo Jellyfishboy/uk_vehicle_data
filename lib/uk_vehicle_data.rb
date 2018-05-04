@@ -4,6 +4,10 @@ require 'uk_vehicle_data/api_operations/retrieve'
 
 require 'uk_vehicle_data/api_resource'
 require 'uk_vehicle_data/vehicle_data'
+require 'uk_vehicle_data/battery_data'
+require 'uk_vehicle_data/mot_history_and_tax_status_data'
+require 'uk_vehicle_data/mot_history_data'
+
 
 module UkVehicleData
     API_BASE = "https://uk1.ukvehicledata.co.uk/api/datapackage/"

@@ -44,6 +44,30 @@ Example:
 UkVehicleData::VehicleData.retrieve(key_VRM: 'AX04DHA')
 ```
 
+### BatteryData
+
+Retrieve battery data via VRM.
+
+```ruby
+UkVehicleData::BatteryData.retrieve(params)
+```
+
+### MotHistoryAndTaxStatusData
+
+Retrieve MOT history and tax status data via VRM.
+
+```ruby
+UkVehicleData::MotHistoryAndTaxStatusData.retrieve(params)
+```
+
+### MotHistoryData
+
+Retrieve MOT history data via VRM.
+
+```ruby
+UkVehicleData::MotHistoryData.retrieve(params)
+```
+
 ### On request API key
 
 This gem allows you to set the api key on a per request basis.
