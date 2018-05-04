@@ -1,6 +1,6 @@
 ## UkVehicleData
 
-[![Gem Version](https://badge.fury.io/rb/ukvehicledata.svg)](https://badge.fury.io/rb/ukvehicledata)
+[![Gem Version](https://badge.fury.io/rb/uk_vehicle_data.svg)](https://badge.fury.io/rb/uk_vehicle_data)
 
 A Ruby wrapper for the UK VehicleData API.
 
