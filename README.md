@@ -4,7 +4,7 @@
 
 A Ruby wrapper for the UK VehicleData API.
 
-[Release Notes](http://release.tomdallimore.com/projects/ukvehicledata)
+[Release Notes](http://release.tomdallimore.com/projects/uk_vehicle_data)
 
 ## Installation
 
@@ -41,6 +41,6 @@ UkVehicleData Ruby wrapper follows Semantic Versioning 2.0 as defined at
 * Send a pull request against the *development* branch
 
 ## Copyright
-Copyright (c) 2018 [Tom Dallimore](http://www.tomdallimore.com/?utm_source=ukvehicledata&utm_medium=website&utm_campaign=tomdallimore) ([@tom_dallimore](http://twitter.com/tom_dallimore))  
+Copyright (c) 2018 [Tom Dallimore](http://www.tomdallimore.com/?utm_source=uk_vehicle_data&utm_medium=website&utm_campaign=tomdallimore) ([@tom_dallimore](http://twitter.com/tom_dallimore))  
 Licenced under the MIT licence.
 

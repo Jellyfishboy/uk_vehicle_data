@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = UkVehicleData::VERSION
   s.authors     = ["Tom Dallimore"]
   s.email       = ["me@tomdallimore.com"]
-  s.homepage    = "https://github.com/Jellyfishboy/ukvehicledata"
+  s.homepage    = "https://github.com/Jellyfishboy/uk_vehicle_data"
   s.summary     = "A Ruby wrapper for the UK VehicleData API"
   s.description = "A Ruby wrapper for the UK VehicleData API"
   s.license     = "MIT"
