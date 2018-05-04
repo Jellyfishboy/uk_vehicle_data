@@ -1,4 +1,4 @@
-## UkVehicleData
+## UK VehicleData
 
 [![Gem Version](https://badge.fury.io/rb/uk_vehicle_data.svg)](https://badge.fury.io/rb/uk_vehicle_data)
 
