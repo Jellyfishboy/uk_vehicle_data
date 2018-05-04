@@ -1,4 +1,4 @@
-module Ukvehicledata
+module UkVehicleData
     class ApiResource
 
         def self.class_name

@@ -24,7 +24,11 @@ module UkVehicleData
         attr_writer :api_key
 
         def request method, resource, params={}
-            vd_api_key = params[:auth_api_key] || UkVehicleData.api_key
+            vd_api_key = params[:auth_apikey] || UkVehicleData.api_key
+            vd_api_nullitems = params[:api_nullitems] || 1
+            vd_version = params[:v] || 2
+
+            params.merge!({api_nullitems: vd_api_nullitems, v: vd_version, auth_apikey: vd_api_key})
 
             defined? method or raise(
                 ArgumentError, "Request method has not been specified"
@@ -32,17 +36,12 @@ module UkVehicleData
             defined? resource or raise(
                 ArgumentError, "Request resource has not been specified"
             )
-            if method == :get 
-                headers = { accept: :json, content_type: :json }.merge({params: params})
-                payload = nil
-            else
-                headers = { accept: :json, content_type: :json }
-                payload = params
-            end
+
+            headers = { accept: :json, content_type: :json }.merge({params: params})
+
             RestClient::Request.new({
                 method: method,
                 url: API_BASE + resource,
-                payload: payload ? payload.to_json : nil,
                 headers: headers
             }).execute do |response, request, result|
                 str_response = response.to_str        
