@@ -27,6 +27,31 @@ UkVehicleData.api_key  = 'uk_vehicle_data_api_key'
 ```
 e.g. *config/initializers/uk_vehicle_data.rb*
 
+## Usage
+
+This gem provides access to a collection of data packages within the UK VehicleData API.
+
+### VehicleData
+
+Retrieve vehicle data via VRM.
+
+```ruby
+UkVehicleData::VehicleData.retrieve(params)
+```
+
+Example:
+```ruby
+UkVehicleData::VehicleData.retrieve(key_VRM: 'AX04DHA')
+```
+
+### On request API key
+
+This gem allows you to set the api key on a per request basis.
+
+```ruby
+UkVehicleData::VehicleData.retrieve(key_VRM: 'AX04DHA', auth_apikey: 'custom_api_key')
+```
+
 ## Versioning
 
 UkVehicleData Ruby wrapper follows Semantic Versioning 2.0 as defined at
