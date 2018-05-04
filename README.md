@@ -1,8 +1,8 @@
-## UK VehicleData
+## UK Vehicle Data
 
 [![Gem Version](https://badge.fury.io/rb/uk_vehicle_data.svg)](https://badge.fury.io/rb/uk_vehicle_data)
 
-A Ruby wrapper for the UK VehicleData API.
+A Ruby wrapper for the UK Vehicle Data API.
 
 [Release Notes](http://release.tomdallimore.com/projects/uk_vehicle_data)
 
@@ -20,7 +20,7 @@ Then run bundle to install the Gem:
 bundle install
 ```
 
-Set up an initializer file with your UKVehicleData API key:
+Set up an initializer file with your UK Vehicle Data API key:
 
 ```ruby
 UkVehicleData.api_key  = 'uk_vehicle_data_api_key'
@@ -29,7 +29,7 @@ e.g. *config/initializers/uk_vehicle_data.rb*
 
 ## Usage
 
-This gem provides access to a collection of data packages within the UK VehicleData API.
+This gem provides access to a collection of data packages within the UK Vehicle Data API.
 
 ### VehicleData
 
@@ -54,7 +54,7 @@ UkVehicleData::VehicleData.retrieve(key_VRM: 'AX04DHA', auth_apikey: 'custom_api
 
 ## Versioning
 
-UkVehicleData Ruby wrapper follows Semantic Versioning 2.0 as defined at
+UK Vehicle Data Ruby wrapper follows Semantic Versioning 2.0 as defined at
 <http://semver.org>.
 
 ## How to contribute
