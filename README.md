@@ -4,7 +4,7 @@
 
 A Ruby wrapper for the UK Vehicle Data API.
 
-[Release Notes](http://release.tomdallimore.com/projects/uk_vehicle_data)
+[Release Notes](http://release.tomdallimore.com/projects/uk-vehicle-data)
 
 ## Installation
 
