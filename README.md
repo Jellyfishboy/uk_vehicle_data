@@ -41,7 +41,7 @@ UkVehicleData::VehicleData.retrieve(params)
 
 Example:
 ```ruby
-UkVehicleData::VehicleData.retrieve(key_VRM: 'AX04DHA')
+UkVehicleData::VehicleData.retrieve(key_VRM: 'MA58TRX')
 ```
 
 ### BatteryData
