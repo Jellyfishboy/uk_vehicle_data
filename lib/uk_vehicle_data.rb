@@ -20,11 +20,6 @@ module UkVehicleData
 
     class << self
 
-        def api_key
-            defined? @api_key and @api_key or raise(
-                ConfigurationError, "UkVehicleData api key not configured"
-            )
-        end
         attr_writer :api_key
 
         def request method, resource, params={}
@@ -34,6 +29,9 @@ module UkVehicleData
 
             params.merge!({api_nullitems: vd_api_nullitems, v: vd_version, auth_apikey: vd_api_key})
 
+            defined? vd_api_key or raise(
+                ConfigurationError, "UkVehicleData api key not configured"
+            )
             defined? method or raise(
                 ArgumentError, "Request method has not been specified"
             )
