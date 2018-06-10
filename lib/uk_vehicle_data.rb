@@ -20,6 +20,10 @@ module UkVehicleData
 
     class << self
 
+        def api_key
+
+        end
+
         attr_writer :api_key
 
         def request method, resource, params={}
